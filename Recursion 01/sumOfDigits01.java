@@ -9,6 +9,6 @@ class sumOfDigits01{
         summ(num/10, sum); // num ko chota kiya 
     }
     public static void main(String[] args) {
-        summ(456, 0);
+        summ(456, 0); // pass sum as well in parameter.
     }
 }
