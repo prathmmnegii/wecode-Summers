@@ -4,9 +4,9 @@ class sumOfDigits01{
             System.out.println( sum); // sum ek hi bar print hoga (final output)
             return;
         }
-        int digit=num%10; // last digit extract kari
-        sum= sum+digit;   // sum mai digit add kari 
-        summ(num/10, sum); // num ko chota kiya 
+        int digit=num%10; // last digit extract kari   |
+        sum= sum+digit;   // sum mai digit add kari    |----> logic 
+        summ(num/10, sum); // num ko chota kiya        |
     }
     public static void main(String[] args) {
         summ(456, 0); // pass sum as well in parameter.
