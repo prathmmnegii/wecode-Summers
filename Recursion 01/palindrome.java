@@ -16,3 +16,5 @@ public class palindrome {
         System.out.println(pal(0, s));
     }
 }
+
+
