@@ -25,7 +25,7 @@ class subsequenceK{
         List<Integer> ds= new ArrayList<>();
 
         int k=2;
-        int[] nums={ 1,2,-1,3};
+        int[] nums={ 1,2 ,-1, 3};
         seq(0,0,k,nums,ds);
     }
 }

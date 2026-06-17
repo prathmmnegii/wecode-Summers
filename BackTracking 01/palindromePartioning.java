@@ -1,4 +1,8 @@
-class Solution {
+import java.util.*;
+public class palindromePartioning {
+
+    
+}class Solution {
 
     public boolean isPal(String s){  //check if string is palindrome or not
             int left=0;
