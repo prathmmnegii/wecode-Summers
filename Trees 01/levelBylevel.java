@@ -15,14 +15,14 @@
  */
 import java.util.*;
 class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrder(Node root) {
 
         List<List<Integer>> ans= new ArrayList<>();
         if(root==null){
             return ans;
         }
 
-        Queue <TreeNode> q= new LinkedList<>();
+        Queue <Node> q= new LinkedList<>();
         q.offer(root);
 
         while(!q.isEmpty()){
@@ -32,7 +32,7 @@ class Solution {
 
             for(int i=0; i<size; i++){
                 
-                TreeNode node= q.poll();  //add in list
+                Node node= q.poll();  //add in list
                 level.add(node.val);
 
                 if(node.left!= null){
