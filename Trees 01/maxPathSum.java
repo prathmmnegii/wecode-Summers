@@ -1,7 +1,7 @@
 class Solution {
 
     int max= Integer.MIN_VALUE;
-    int helper(TreeNode root){
+    int helper(Node root){
         if(root==null){
             return 0;
         }
@@ -13,7 +13,7 @@ class Solution {
         return root.val+ Math.max(leftsum, rightsum);
     }
 
-    public int maxPathSum(TreeNode root) {
+    public int maxPathSum(Node root) {
         helper(root);
         return max;
 
